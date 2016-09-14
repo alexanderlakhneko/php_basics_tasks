@@ -1,21 +1,9 @@
 <?php
 $day = rand(1,7);
 //echo $day . "<br>";
-switch ($day)
+switch (true)
 {
-    case 1:
-        echo 'Это рабочий день!';
-        break;
-    case 2:
-        echo 'Это рабочий день!';
-        break;
-    case 3:
-        echo 'Это рабочий день!';
-        break;
-    case 4:
-        echo 'Это рабочий день!';
-        break;
-    case 5:
+    case $day <= 5 && $day >= 1:
         echo 'Это рабочий день!';
         break;
 }
