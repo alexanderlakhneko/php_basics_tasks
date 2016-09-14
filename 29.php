@@ -1,5 +1,5 @@
 <?php
-$day = rand(1,7);
+$day = rand(0,9);
 //echo $day . "<br>";
 switch (true)
 {
@@ -9,4 +9,6 @@ switch (true)
     case $day == 6 || $day == 7:
         echo 'Это выходной день!';
         break;
+    default:
+        echo 'Неизвестный день';
 }
