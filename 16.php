@@ -10,4 +10,3 @@ elseif ($a < $b) {
 else {
     echo 'Draw a=' . $a . ' b=' . $b;
 }
-
